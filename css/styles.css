@@ -4,10 +4,10 @@
     box-sizing: border-box;
    }
    body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-image: url('../image/ขลบุรี.jpg');
-   }
+    margin-bottom: 50px;
+}
    header {
     background: #333;
     color: #fff;
