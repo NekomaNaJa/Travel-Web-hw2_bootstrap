@@ -267,3 +267,16 @@ button:hover {
         display: flex;
     }
 }
+
+@media (max-width: 480px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
+}
