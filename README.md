@@ -85,3 +85,7 @@
 - git commit -m "fix about layout places"
 - git add places.html
 - git commit -m "fix รูปภาพทับข้อความ"
+- git add contact.html
+- git commit -m "add link bootstrap@5"
+- git add .\css\styles.css
+- git commit -m "fix image-container & add modal"
