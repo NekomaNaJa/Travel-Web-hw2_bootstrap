@@ -287,12 +287,13 @@ button:hover {
 .mainA {
     display: flex;
     max-width: 100%;
-    flex-direction: column; 
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    min-height: 100vh; 
+    min-height: 100vh;
     text-align: center;
     padding: 2rem;
+    margin-bottom: 50px; /* Adds space between .mainA and footer */
 }
 
 .mainA div {
@@ -300,6 +301,13 @@ button:hover {
     align-items: center; 
     gap: 20px;
     max-width: 1200px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
 }
 
 .pi {
@@ -311,13 +319,11 @@ button:hover {
 }
 
 .t {
-    flex: 1; 
-    background-color: rgba(190, 161, 161, 0.836);
-    padding: 1.5rem;
+    margin-top: 0px;
+    padding: 1rem;
     border-radius: 10px;
     line-height: 1.6;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: justify; 
+    text-align: center;
 }
 
 @media (max-width: 768px) {
