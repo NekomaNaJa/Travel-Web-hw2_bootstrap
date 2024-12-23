@@ -4,10 +4,74 @@
     box-sizing: border-box;
    }
    body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-image: url('../image/ขลบุรี.jpg');
-   }
+    margin-bottom: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f8f9fa;
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+    }
+    .navbar-brand {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #333;
+        text-decoration: none;
+    }
+    .navbar-menu {
+        display: flex;
+        gap: 15px;
+    }
+    .navbar-menu a {
+        text-decoration: none;
+        color: #333;
+        padding: 5px 10px;
+    }
+    .navbar-menu a:hover {
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+
+    .search-box {
+        display: flex;
+        gap: 5px;
+    }
+    .search-box input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .search-box button {
+        padding: 5px 10px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .search-box button:hover {
+        background-color: #218838;
+    }
+
+    .navbar-toggler {
+        display: none;
+        background-color: #333;
+        border: none;
+        font-size: 1.2em;
+        cursor: pointer;
+        color: #ffd700;
+    }
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
    header {
     background: #333;
     color: #fff;
@@ -27,6 +91,8 @@
     }
    nav a.active {
     color: #ffd700;
+    background-color: #555;
+    border-radius: 5px;
    }
    main {
     padding: 2rem;
@@ -189,4 +255,30 @@ button:hover {
     line-height: 1.6;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: justify; 
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
 }
