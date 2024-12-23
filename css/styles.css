@@ -272,7 +272,6 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
 }
 
 .image-container img {
@@ -324,6 +323,32 @@ button:hover {
     border-radius: 10px;
     line-height: 1.6;
     text-align: center;
+}
+
+.modal-content {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #06014d;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
 }
 
 @media (max-width: 768px) {
