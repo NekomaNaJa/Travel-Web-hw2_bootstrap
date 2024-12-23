@@ -254,3 +254,16 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: justify; 
 }
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
+}
