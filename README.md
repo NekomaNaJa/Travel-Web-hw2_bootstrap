@@ -89,3 +89,5 @@
 - git commit -m "add link bootstrap@5"
 - git add .\css\styles.css
 - git commit -m "fix image-container & add modal"
+- git add .\css\styles.css
+- git commit -m "fix @media"
