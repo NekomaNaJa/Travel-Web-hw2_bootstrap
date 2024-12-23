@@ -83,3 +83,5 @@
 - git merge feature/js
 - git add -m .\css\styles.css
 - git commit -m "fix about layout places"
+- git add places.html
+- git commit -m "fix รูปภาพทับข้อความ"
