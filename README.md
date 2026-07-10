@@ -1,3 +1,43 @@
+# Travel Web (HW2) — Bootstrap Edition
+
+An upgraded version of the Travel Web project, rebuilt with Bootstrap 5 and
+vanilla JavaScript to add interactivity and full responsive support —
+built as a follow-up assignment to the original HTML/CSS-only version.
+
+## 🌐 Live Preview
+(Add a GitHub Pages link here if you deploy it)
+
+## 🛠️ Built With
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript (Vanilla)
+
+## ✨ Features
+- Responsive navbar with toggle menu (mobile-friendly)
+- Search bar in navigation
+- Hero section with grid-based layout
+- Interactive contact modal (JS-powered)
+- Fully responsive design (breakpoints at 768px and 480px)
+- Places gallery with hover effects
+
+## 📄 Pages
+- **Home (`index.html`)** — Landing page with hero section and navbar
+- **Places (`places.html`)** — Destination gallery with grid layout
+- **Contact (`contact.html`)** — Contact form inside a modal
+
+## 🎯 What I Practiced
+- Integrating Bootstrap components into a custom design
+- DOM manipulation with vanilla JavaScript (toggle menu, modal logic)
+- Responsive design using CSS media queries
+- Git feature-branch workflow (`feature/index`, `feature/css`,
+  `feature/places`, `feature/js`, `feature/contact`) merged into `main`
+
+---
+*This is a follow-up assignment building on [Travel-Web-hw1](https://github.com/NekomaNaJa/Travel-Web-hw1),
+adding Bootstrap and JavaScript interactivity.*
+
+# Git Command
 - git clone https://github.com/NekomaNaJa/Travel-Web-hw2_bootstrap.git
 - git clone https://github.com/NekomaNaJa/Travel-Web-hw1.git
 - git add .
